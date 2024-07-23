@@ -31,7 +31,7 @@ export const modelOptions: ModelOptions[] = [
   'gpt-4o',
   'gpt-4o-2024-05-13',
   'gemini-1.5-flash-latest',
-  'gpt-4o.mini',
+  'gpt-4o-mini',
   // 'gpt-4-32k-0314',
 ];
 
