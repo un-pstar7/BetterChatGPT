@@ -58,6 +58,7 @@ export const modelMaxToken = {
   'gpt-4o': 128000,
   'gpt-4o-2024-05-13': 128000,
   'gemini-1.5-flash-latest': 1000000,
+  'gpt-4o-mini': 128000,
 };
 
 export const modelCost = {
@@ -140,6 +141,10 @@ export const modelCost = {
   'gemini-1.5-flash-latest': {
     prompt: { price: 0.00035, unit: 1000 },
     completion: { price: 0.00105, unit: 1000 }
+  },
+  'gpt-4o-mini': {
+    prompt: { price: 0.00015, unit: 1000 },
+    completion: { price: 0.00060, unit: 1000 }
   },
 };
 
